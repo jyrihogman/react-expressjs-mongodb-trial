@@ -1,0 +1,11 @@
+mongodb:
+    image: mongo:latest
+    container_name: "mongonode"
+    ports:
+        - 27017:27017
+        - 28017:28017
+    expose:
+        - "27017"
+        - "28017"
+    volumes:
+        - mongo_storage:/data
