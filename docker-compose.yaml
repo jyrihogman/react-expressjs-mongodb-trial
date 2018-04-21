@@ -7,5 +7,3 @@ mongodb:
     expose:
         - "27017"
         - "28017"
-    volumes:
-        - mongo_storage:/data
